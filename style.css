@@ -1,0 +1,172 @@
+body{
+  background: #EBEBEB;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #7d7d7d;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+h1 {
+  color: #2C497F;
+  font-size: 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+h2{
+  color: #96BDC6;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+p {
+  color: #474A48;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+a {
+  color: #474A48;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #F1FAEE;
+}
+
+td {
+  color: #474A48;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+
+h3{
+  color: #9AA899;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+h4{
+  color: #9AA899;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+td{
+  display: table-cell;
+  vertical-align: inherit;
+}
+
+
+.container {
+  width: 600px;
+  margin: 50px auto;
+  text-align: center
+}
+
+
+.card {
+  background: white;
+  padding: 40px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px #9AA899
+}
+
+.text-center{
+  text-align: center
+}
+
+.fav_things{
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px #9AA899
+}
+
+.fav_things p {
+  color: #A3A9AA;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px
+}
+
+.fav_things td {
+  color: #474A48;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 20px
+}
+
+#image_profile{
+  width: 100px;
+  height: 100px;
+  border: 3px solid #cccccc;
+}
+
+
+.img_circle{
+  border-radius: 700px;
+}
+
+.image_hobbies{
+  border-radius: 10px;
+}
+
+
+.btn-grey {
+  background-color: #9AA899;
+  font-family:  'Open Sans', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 4px;
+  margin-top:20px;
+  margin-bottom: 20px
+}
+
+#hobbies{
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+#hobbies td{
+  padding: 10px;
+}
+
+.list_inline{
+  padding-left: 0;
+}
+
+.list_inline li {
+  display: inline-block;
+  padding: 20px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
